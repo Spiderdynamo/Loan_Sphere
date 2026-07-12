@@ -1,0 +1,21 @@
+# --- Web framework -----------------------------------------------------
+Flask==3.1.1
+Werkzeug==3.1.3
+
+# --- Document reading (PDF text extraction + OCR) -----------------------
+pdfplumber==0.11.7
+easyocr==1.7.2
+pytesseract==0.3.13
+opencv-python==4.12.0.88
+
+# --- AI / NLP (BERT-family zero-shot transaction classifier) -----------
+torch>=2.7.0
+transformers>=4.53.0
+sentencepiece>=0.2.0
+accelerate>=1.8.1
+
+# --- Charts + data handling ----------------------------------------------
+matplotlib==3.10.5
+pandas==2.3.1
+numpy==2.2.6
+Pillow==11.3.0

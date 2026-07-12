@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Flask
+instance/
+.flask_session/
+
+# Uploaded documents (user data - never commit real bank statements/payslips!)
+uploads/*
+!uploads/.gitkeep
+
+# Generated chart images (regenerated at runtime, no need to version them)
+static/charts/*
+!static/charts/.gitkeep
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Hugging Face / torch model cache if downloaded locally into the repo
+.cache/
+*.pt
+*.bin
